@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rock Paper Scissors</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="rps.css" />
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <div class="game-box">
+    <div class="choices">
+      <button onclick="play('rock')">🪨 Rock</button>
+      <button onclick="play('paper')">📄 Paper</button>
+      <button onclick="play('scissors')">✂️ Scissors</button>
+    </div>
+    <p id="result"></p>
+    <p>Player Score: <span id="playerScore">0</span> | Computer Score: <span id="computerScore">0</span></p>
+    <button onclick="resetGame()">Play Again</button>
+    <button onclick="location.href='index.html'">Go Back</button>
+  </div>
+  <script src="rps.js"></script>
+</body>
+</html>

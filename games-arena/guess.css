@@ -1,0 +1,53 @@
+body {
+  font-family: 'Amatic SC', cursive;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  text-align: center;
+  padding: 40px;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.game-box {
+  background: white;
+  color: #333;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  font-size: 24px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid #ff5f6d;
+  margin-bottom: 15px;
+}
+
+button {
+  font-size: 22px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 12px;
+  border: none;
+  background-color: #ff5f6d;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffc371;
+  color: #333;
+}
+
+#message {
+  font-size: 24px;
+  margin: 15px 0;
+}
