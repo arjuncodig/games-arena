@@ -1,0 +1,6 @@
+docs/
+├── index.html              ← Main homepage
+├── game1.html              ← Other games (like flappy.html, memory.html, etc.)
+├── styles.css              ← Shared CSS (optional)
+├── game1.js                ← Game JS files
+├── images/                 ← Any image folders used
