@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guess the Number</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="guess.css" />
+</head>
+<body>
+  <h1>Guess the Number</h1>
+  <div class="game-box">
+    <p>I’m thinking of a number between <strong>1 and 100</strong>.</p>
+    <input type="number" id="guessInput" placeholder="Enter your guess" />
+    <button onclick="checkGuess()">Check</button>
+    <p id="message"></p>
+    <p>Attempts: <span id="attempts">0</span></p>
+    <button onclick="resetGame()">Play Again</button>
+    <button onclick="location.href='index.html'">Go Back</button>
+  </div>
+  <script src="guess.js"></script>
+</body>
+</html>

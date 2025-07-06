@@ -1,0 +1,45 @@
+body {
+  font-family: 'Amatic SC', cursive;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  margin: 20px 0;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 180px);
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+button {
+  font-size: 22px;
+  padding: 10px 20px;
+  margin: 15px;
+  border: none;
+  border-radius: 12px;
+  background: white;
+  color: #0072ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0072ff;
+  color: white;
+}
